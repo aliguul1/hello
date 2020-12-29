@@ -2,8 +2,8 @@
 #include<string.h>
 int main()
 {
-	string greeting = "Hello guys :";
-	printf(greeting);
-	prinf("\n");
+	char greeting[] = "Hello guys!";
+	printf("%s", greeting);
+	printf("\n");
 }
 
